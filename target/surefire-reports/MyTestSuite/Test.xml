@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-L2N6RGM" name="testsuite.LoginTest" tests="1" failures="0" timestamp="19 Apr 2021 19:45:38 GMT" time="21.72" errors="0">
+  <testcase name="login" time="13.326" classname="testsuite.LoginTest"/>
+</testsuite>
