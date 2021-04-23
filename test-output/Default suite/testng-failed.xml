@@ -5,7 +5,8 @@
     <classes>
       <class name="testsuite.LoginTest">
         <methods>
-          <include name="login"/>
+          <include name="loginpage"/>
+          <include name="setUp"/>
         </methods>
       </class>
     </classes>

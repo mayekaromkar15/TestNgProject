@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54" started-at="2021-04-22T14:06:00Z" finished-at="2021-04-22T14:06:00Z">
+  <suite name="Default suite" duration-ms="25958" started-at="2021-04-24T00:25:28Z" finished-at="2021-04-24T00:25:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54" started-at="2021-04-22T14:06:00Z" finished-at="2021-04-22T14:06:00Z">
+    <test name="Default test" duration-ms="25958" started-at="2021-04-24T00:25:28Z" finished-at="2021-04-24T00:25:54Z">
       <class name="testsuite.LoginTest">
-        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String)" name="login" duration-ms="0" started-at="2021-04-22T14:06:00Z" finished-at="2021-04-22T14:06:00Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method login
-but has not been marked @Optional or defined in C:\Users\omkar\AppData\Local\Temp\testng-eclipse-686233558\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method login
-but has not been marked @Optional or defined in C:\Users\omkar\AppData\Local\Temp\testng-eclipse-686233558\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:144)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:323)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:414)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1315)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1022)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
-	at org.testng.TestRunner.privateRun(TestRunner.java:749)
-	at org.testng.TestRunner.run(TestRunner.java:600)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
-	at org.testng.TestNG.run(TestNG.java:900)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="11121" started-at="2021-04-24T00:25:28Z" finished-at="2021-04-24T00:25:39Z">
+        </test-method>
+        <test-method status="PASS" signature="loginpage()" name="loginpage" duration-ms="14809" started-at="2021-04-24T00:25:39Z" finished-at="2021-04-24T00:25:54Z">
         </test-method>
       </class>
     </test>
